@@ -11,10 +11,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Catalog"),
       ),
-      body: Center(
-        child: Container(
-          child: const Text("Hi, This is nitin-$value"),
-        ),
+      body: const Center(
+        child: Text("Hi, This is nitin-$value"),
       ),
       drawer: const Drawer(),
     );
