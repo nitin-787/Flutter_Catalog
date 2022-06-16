@@ -4,7 +4,6 @@ import 'package:flutter_catalog/widgets/themes.dart';
 import 'pages/home_page.dart';
 import 'pages/login_page.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: MyTheme.lightTheme(context),
       darkTheme: MyTheme.lightTheme(context),
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => const LoginPage(),
