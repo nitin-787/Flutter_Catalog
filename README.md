@@ -9,3 +9,4 @@ A new Flutter project.
 ### **_Day 14_** | 16 June -> Added Product detail page
 
 ### **_Day 15_** | 16 June -> Added Cart page
+
