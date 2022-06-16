@@ -10,3 +10,4 @@ A new Flutter project.
 
 ### **_Day 15_** | 16 June -> Added Cart page
 
+### **_Day 16_** | 16 June -> Themes | darkTheme / systemTheme
