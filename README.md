@@ -11,3 +11,7 @@ A new Flutter project.
 ### **_Day 15_** | 16 June -> Added Cart page
 
 ### **_Day 16_** | 16 June -> Themes | darkTheme / systemTheme
+
+### **_Day 17_** | 17 June -> Catalog Model Fixed |
+
+### **_Day 17_** | 17 June -> Minor Problem with AppBar text color (cart)
