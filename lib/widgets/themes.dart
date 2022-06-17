@@ -8,7 +8,7 @@ class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
       primarySwatch: Colors.deepPurple,
       fontFamily: GoogleFonts.poppins().fontFamily,
-      cardColor: Colors.white,
+      cardColor: Colors.black,
       canvasColor: creamColor,
       accentColor: darkBluishColor,
       buttonColor: darkBluishColor,
@@ -22,7 +22,7 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext context) => ThemeData(
       brightness: Brightness.dark,
       fontFamily: GoogleFonts.poppins().fontFamily,
-      cardColor: Colors.black,
+      cardColor: Colors.white,
       canvasColor: darkCreamColor,
       buttonColor: lightBluishColor,
       accentColor: Colors.white,
