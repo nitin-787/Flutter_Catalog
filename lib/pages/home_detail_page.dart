@@ -1,7 +1,6 @@
 // ignore_for_file: import_of_legacy_library_into_null_safe, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import 'package:flutter_catalog/models/catalog.dart';
