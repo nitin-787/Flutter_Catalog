@@ -15,3 +15,5 @@ A new Flutter project.
 ### **_Day 17_** | 17 June -> Catalog Model Fixed |
 
 ### **_Day 17_** | 17 June -> Minor Problem with AppBar text color (cart)
+
+### **_Day 18_** | 17 June -> PlaceHolder | Cart Page
