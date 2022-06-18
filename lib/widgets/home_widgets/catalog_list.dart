@@ -52,14 +52,22 @@ class CatalogItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            catalog.name.text.lg.color(context.accentColor).bold.make(),
-            catalog.desc.text.textStyle(context.captionStyle).make(),
+            catalog.name.text.lg.color(context.canvasColor).bold.make(),
+            catalog.desc.text
+                .textStyle(context.captionStyle)
+                .color(context.canvasColor)
+                .make(),
             10.heightBox,
             ButtonBar(
               alignment: MainAxisAlignment.spaceBetween,
               buttonPadding: EdgeInsets.zero,
               children: [
-                "\$${catalog.price}".text.bold.xl.make(),
+                "\$${catalog.price}"
+                    .text
+                    .bold
+                    .xl
+                    .color(context.canvasColor)
+                    .make(),
                 ElevatedButton(
                   onPressed: () {},
                   style: ButtonStyle(
