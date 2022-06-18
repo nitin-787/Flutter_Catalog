@@ -17,3 +17,5 @@ A new Flutter project.
 ### **_Day 17_** | 17 June -> Minor Problem with AppBar text color (cart)
 
 ### **_Day 18_** | 17 June -> PlaceHolder | Cart Page
+
+### **_Day 19_** | 17 June -> Scaffold Messenger | Cart Model | List fold

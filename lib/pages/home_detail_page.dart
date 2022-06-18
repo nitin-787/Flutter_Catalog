@@ -52,8 +52,11 @@ class HomeDetailPage extends StatelessWidget {
                   width: context.screenWidth,
                   child: Column(
                     children: [
+                      const Spacer(
+                        flex: 1,
+                      ),
                       catalog.name.text.xl3
-                          .color(context.accentColor)
+                          .color(context.canvasColor)
                           .bold
                           .make(),
                       catalog.desc.text
@@ -64,8 +67,9 @@ class HomeDetailPage extends StatelessWidget {
                       "Sed dolor accusam invidunt sit eirmod amet et. Consetetur dolores no sed takimata duo amet et, erat tempor no sed et consetetur amet ea, dolor est consetetur no dolores lorem tempor. Sadipscing dolores sadipscing diam amet et diam tempor. Et diam stet diam eirmod labore et voluptua amet ipsum, sed."
                           .text
                           .textStyle(context.captionStyle)
+                          .color(context.canvasColor)
                           .make()
-                          .py16()
+                          .p16()
                     ],
                   ).py32(),
                 ),

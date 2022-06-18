@@ -23,6 +23,7 @@ class MyTheme {
       brightness: Brightness.dark,
       fontFamily: GoogleFonts.poppins().fontFamily,
       cardColor: Colors.white,
+      textTheme: Theme.of(context).textTheme,
       canvasColor: darkCreamColor,
       buttonColor: lightBluishColor,
       accentColor: Colors.white,

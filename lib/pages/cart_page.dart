@@ -39,7 +39,11 @@ class _CartTotal extends StatelessWidget {
           "\$9999".text.xl4.color(context.accentColor).make(),
           30.widthBox,
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                content: "Buying not Supported yet".text.make(),
+              ));
+            },
             style: ButtonStyle(
                 backgroundColor:
                     MaterialStateProperty.all(context.theme.buttonColor)),
@@ -69,7 +73,7 @@ class _CartListState extends State<_CartList> {
           icon: const Icon(Icons.remove_circle_outline),
           onPressed: () {},
         ),
-        title: "Item 1".text.make(),
+        title: "Item 1".text.color(context.cardColor).make(),
       ),
     );
   }
