@@ -12,7 +12,7 @@ class CartModel {
   // catalog feild
   late CatalogModel _catalog;
 
-  // collection of IDs Store IDs of item
+  // collection of IDs - Store IDs of item
   final List<int> _itemIds = [];
 
   // get catalog
