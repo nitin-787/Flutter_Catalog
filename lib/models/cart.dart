@@ -6,7 +6,7 @@ class CartModel {
   // catalog feild
   late CatalogModel _catalog;
 
-  // collection of IDs Store IDs of item
+  // collection of IDs - Store IDs of item
   final List<int> _itemIds = [];
 
   // get catalog
@@ -20,7 +20,8 @@ class CartModel {
   List<Item> get items => _itemIds.map((id) => _catalog.getById(id)).toList();
 
   // get total price
-  num get totalPrice => items.fold(0, (total, current) => current.price);
+  num get totalPrice =>
+      items.fold(0, (total, current) => total + current.price);
 
   // Add Item
   void add(Item item) {
