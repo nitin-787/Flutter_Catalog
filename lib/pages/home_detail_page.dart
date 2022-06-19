@@ -32,7 +32,7 @@ class HomeDetailPage extends StatelessWidget {
               child: "Add to cart".text.xl.make(),
             ).wh(140, 50)
           ],
-        ).py32(),
+        ).px16(),
       ),
       body: SafeArea(
           bottom: false,
@@ -61,6 +61,7 @@ class HomeDetailPage extends StatelessWidget {
                           .make(),
                       catalog.desc.text
                           .textStyle(context.captionStyle)
+                          .color(context.canvasColor)
                           .xl
                           .make(),
                       10.heightBox,

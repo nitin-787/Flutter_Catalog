@@ -19,3 +19,6 @@ A new Flutter project.
 ### **_Day 18_** | 17 June -> PlaceHolder | Cart Page
 
 ### **_Day 19_** | 18 June -> Scaffold Messenger | Cart Model | List fold
+
+### **_Day 20_** | 19 June -> Add to Cart Functionallity
+
