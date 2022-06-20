@@ -21,10 +21,15 @@ class HomeDetailPage extends StatelessWidget {
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
           children: [
-            "\$${catalog.price}".text.bold.xl4.red800.make(),
+            "\$${catalog.price}"
+                .text
+                .bold
+                .xl4
+                .color(context.canvasColor)
+                .make(),
             AddToCart(catalog: catalog).wh(140, 50)
           ],
-        ).px16(),
+        ).p16(),
       ),
       body: SafeArea(
           bottom: false,
@@ -44,9 +49,7 @@ class HomeDetailPage extends StatelessWidget {
                   width: context.screenWidth,
                   child: Column(
                     children: [
-                      const Spacer(
-                        flex: 1,
-                      ),
+                      const Spacer(),
                       catalog.name.text.xl3
                           .color(context.canvasColor)
                           .bold
