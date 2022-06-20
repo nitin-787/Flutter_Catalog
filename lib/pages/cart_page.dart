@@ -62,7 +62,7 @@ class _CartList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _cart.items.isEmpty
-        ? "Nothing to Show".text.xl3.makeCentered()
+        ? "Nothing to Show".text.xl3.color(context.cardColor).makeCentered()
         : ListView.builder(
             itemCount: _cart.items.length,
             itemBuilder: (context, index) => ListTile(
