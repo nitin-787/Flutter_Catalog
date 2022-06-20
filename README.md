@@ -22,4 +22,6 @@ A new Flutter project.
 
 ### **_Day 20_** | 19 June -> Add to Cart Functionallity
 
-### **_Day 20_** | 29 June -> Bad code to the Rescue
+### **_Day 21_** | 20 June -> Bad code to the Rescue
+
+### **_Day 22_** | 20 June -> VelocityX State Management | Vx State | Vx Store
