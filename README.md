@@ -26,3 +26,4 @@ A new Flutter project.
 
 ### **_Day 22_** | 20 June -> VelocityX State Management | Vx State | Vx Store
 
+### **_Day 23_** | 21 June -> VelocityX State Management | Vx State | Vx Mutation
