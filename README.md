@@ -29,3 +29,5 @@ A new Flutter project.
 ### **_Day 23_** | 21 June -> VelocityX State Management | Vx State | Vx Mutation
 
 ### **_Day 24_** | 22 June -> VelocityX State Management | Vx Builder | Vx Consumer
+
+### **_Day 25_** | 22 June -> HTTP | API | Networking | Badge
