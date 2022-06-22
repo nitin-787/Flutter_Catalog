@@ -57,7 +57,7 @@ class CatalogItem extends StatelessWidget {
           children: [
             catalog.name.text.lg.color(context.canvasColor).bold.make(),
             catalog.desc.text
-                .textStyle(context.captionStyle)
+                // .textStyle(context.captionStyle)
                 .color(context.canvasColor)
                 .make(),
             10.heightBox,
