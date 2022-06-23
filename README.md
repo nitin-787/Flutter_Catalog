@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-### **_Day 14_** | 16 June -> Having some Problem with Circular Progress Indicator
+### **_Day 14_** | 16 June -> Having some Problem with Circular Progress Indicator (Fixed)
 
 ### **_Day 14_** | 16 June -> Added Product detail page
 
