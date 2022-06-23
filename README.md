@@ -33,3 +33,5 @@ A new Flutter project.
 ### **_Day 25_** | 22 June -> HTTP | API | Networking | Badge
 
 ### **_Day 26_** | 22 June -> Flutter running on android and web
+
+### **_Day 26_** | 23 June -> Navigator 2.0
