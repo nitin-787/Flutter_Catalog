@@ -31,3 +31,5 @@ A new Flutter project.
 ### **_Day 24_** | 22 June -> VelocityX State Management | Vx Builder | Vx Consumer
 
 ### **_Day 25_** | 22 June -> HTTP | API | Networking | Badge
+
+### **_Day 26_** | 22 June -> Flutter running on android and web
